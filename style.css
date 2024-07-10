@@ -188,3 +188,57 @@ body{
         height: 220px;
     }
             /* main's frist div ends here */
+
+.insp{
+    width: 1140px;
+    height: 777px;
+    margin-top: 130px;
+    /* border: 2px solid rgb(0, 194, 10); */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-start;
+    /* align-self: stretch; */
+ }
+ .insp-txt{
+    /* position: static; */
+width: 852px;
+height: 115px;
+margin: 10px 0px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+ }
+.insp-hed{
+    /* position: static; */
+    width: 852px;
+    height: 39px;
+    font-size: 32px;
+    font-weight: 800;
+    /* line-height: 37px; */
+}
+.insp-cap{
+    width: 852px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+    /* margin-bottom: 0px; */
+}
+.insp-pre-vid{
+    border: 1px solid rgba(128, 128, 128, 0.322);
+    border-radius: 16px;
+    width: 1140px;
+    height: 614px;
+    margin-top: 0px;
+    padding: 32px;
+    /* border-radius: 16px; */
+}
+.insp-vid{
+    width: 1076px;
+height: 550px;
+margin-top: 10px;
+border-radius: 16px;
+}
