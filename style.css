@@ -242,3 +242,275 @@ height: 550px;
 margin-top: 10px;
 border-radius: 16px;
 }
+.target{
+    /* border: 2px solid red; */
+    width: 1140px;
+height: 1445px;
+margin-top: 181px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+/* align-items: flex-start; */
+}
+.tar-head-and-cap{
+    display: flex;
+    flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+text-align: center;
+margin: 48px 0px;
+}
+.current-tar{
+    width: 852px;
+height: 39px;
+/* margin: 24px 0px; */
+font-size: 32px;
+font-weight: 800;
+text-align: center;
+}
+.current-tar-cap{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 24px 0px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    /* align-items: safe; */
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.html-card{
+    padding: 40px ;
+    border: 2px none;
+    border-radius: 16px;
+    background-color: rgba(250, 240, 225, 0.925);
+    width: 364px;
+height: 300px; 
+}
+.htlm-icn{
+    background: url(assets/html.png);
+    width: 56px;
+height: 56px;
+/* margin: 24px 0px; */
+}
+.html-card-title{
+    width: 284px;
+height: 36px;
+    font-size: 24px;
+font-weight: 800;
+}
+.html-card-caption{
+    font-size: 16px;
+font-weight: 400;
+width: 284px;
+height: 52px;
+}
+.html-read-link{
+    font-size: 16px;
+font-weight: 700;
+width: 284px;
+height: 20px;
+}
+.css-card{
+    padding: 40px ;
+    border: 2px snone transparent;
+    border-radius: 16px;
+    background-color:      rgba(219, 224, 235, 0.486);
+    width: 364px;
+height: 300px; 
+}
+.css-icn{
+    background: url(assets/css.png);
+    width: 56px;
+height: 56px;
+/* margin: 24px 0px; */
+}
+.css-card-title{
+    width: 284px;
+height: 36px;
+    font-size: 24px;
+font-weight: 800;
+}
+.css-card-caption{
+    font-size: 16px;
+font-weight: 400;
+width: 284px;
+height: 52px;
+}
+.css-read-link{
+    font-size: 16px;
+font-weight: 700;
+width: 284px;
+height: 20px;
+}
+.javas-card{
+    padding: 40px ;
+    border: 2px none transparent;
+    border-radius: 16px;
+    background-color: rgba(250, 240, 225, 0.925);
+    width: 364px;
+height: 300px; 
+}
+.javas-icn{
+    background: url(assets/js.png);
+    width: 56px;
+height: 56px;
+/* margin: 24px 0px; */
+}
+.javas-card-title{
+    width: 284px;
+height: 36px;
+    font-size: 24px;
+font-weight: 800;
+}
+.javas-card-caption{
+    font-size: 16px;
+font-weight: 400;
+width: 284px;
+height: 52px;
+}
+.javas-read-link{
+    font-size: 16px;
+font-weight: 700;
+width: 284px;
+height: 20px;
+}
+.nxt-target-p{
+    display: flex;
+    flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+text-align: center;
+}
+.nxt-target{
+    margin-top: 111px;
+    margin-bottom: 48px;
+}
+.barcard{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    padding: 40px;
+    margin-top: 1900px;
+    margin-left: 390px;
+    border: 1px solid rgba(128, 128, 128, 0.226);
+    border-radius: 16px;
+    height: 220px;
+    width: 1140px;
+}
+.react-bar{
+width: 1140px;
+height: 220px;
+padding: 40px;
+/* margin: 0px opx 24px 500px; */
+}
+.react-bar-icon{
+    background: url(assets/react.png);
+    width: 114.78px;
+    height: 84.41px;
+    margin: 24px 0px 24px 0px;
+    justify-content: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.react-bar-title{
+width: 130px;
+height: 36px;
+margin-bottom: 8px;
+font-size: 24px;
+font-weight: 800;
+
+}
+.learn-more{
+    /* width:  941.22px;
+    height: 20px; */
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.node-barcard{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    padding: 40px;
+    margin-top: 24px;
+    margin-left: 390px;
+    border: 1px solid rgba(128, 128, 128, 0.226);
+    border-radius: 16px;
+    height: 220px;
+    width: 1140px;
+}
+.node-bar-icon{
+    background: url(assets/nodejs.png);
+    width: 114.78px;
+    height: 84.41px;
+    margin: 24px 0px 24px 0px;
+    justify-content: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.node-bar{
+    width: 1140px;
+    height: 220px;
+    padding: 40px;
+    /* margin: 0px opx 24px 500px; */
+}
+.node-bar-title{
+    width: 130px;
+    height: 36px;
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: 800;
+    
+    }
+.mongo-barcard{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    padding: 40px;
+    margin-top: 25px;
+    margin-left: 390px;
+    border: 1px solid rgba(128, 128, 128, 0.226);
+    border-radius: 16px;
+    height: 220px;
+    width: 1140px;
+}
+
+.mongo-bar-icon{
+    background: url(assets/mongodb.png);
+    width: 114.78px;
+    height: 84.41px;
+    margin: 24px 0px 24px 0px;
+    justify-content: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.mongo-bar{
+    width: 1140px;
+    height: 220px;
+    padding: 40px;
+/* margin: 0px opx 24px 500px; */
+}
+.mongo-bar-title{
+    width: 130px;
+    height: 36px;
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: 800;
+    
+    }
